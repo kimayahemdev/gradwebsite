@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<title>Kimaya's Graduation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/coffeehouse.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <img src=http://nsbe.wustl.edu/wp-content/uploads/2017/05/cropped-Washington_University_in_St_Louis_5686901_i0.jpg >
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">May 18, 2018</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Kimaya<br>is<br> Graduating!</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Washington Uninversity in St. Louis</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container/ Journey -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">MY JOURNEY</span></h5>
+    <p> What started off as a plan to get out of the Bombay bubble turned into the best life experience. 15 year old me discovered the joy of learning, and wanted to chase after this new found passion.
+    As I read more, I understood more, and the world began to open up to me. This excitement from learning (not synonymous with studying), was one I hadn't felt before, and I was determined to continue down this path.
+    After much research, and self introspection to choose 'this path', I decided studying abroad in the United States was the ideal choice. The combination of a research based insitution, flexibility to
+    try out a variety of different subjects, and tempurpedic beds was why I chose WashU. And I never looked back.
+  </p>
+    <br>
+    
+    <div class="w3-panel w3-leftbar w3-light-grey">
+   
+      <p><i>"Great people do things before they're ready. They do things before they know they can do it. Doing what you're afraid of, getting out of your comfort zone, taking risks like that--that is what life is. You might find out something about yourself that's really special. If you're not good, who cares? You tried something. Now you know something about yourself." - Amy Poehler</i></p>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE SCHEDULE</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">The Hemdev's</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">The Shrivastava's</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Saturday, 12 May</h5>
+      <p class="w3-text-grey">
+        8:30 am: Arrive in St. Louis <br>
+        10:00 am: Breakfast with Kimaya in Forest Park <br>
+        12:00 pm: To Resort
+      </p><br>
+    
+      <h5>Sunday, 13 May</h5>
+      <p class="w3-text-grey">
+       12:00 pm: Mother's Day Brunch     
+      </p><br>
+    
+      <h5>Monday, 14 May</h5>
+      <p class="w3-text-grey">
+        R&R at the Resort, enjoy your rest day!
+      </p><br>
+    
+      <h5>Tuesday, 15 May</h5>
+      <p class="w3-text-grey">
+        
+        11:00 am: Explore the Central West End
+        3:00 pm: Packing Day!
+      </p><br>
+    
+      <h5>Wednesday, 16 May</h5>
+      <p class="w3-text-grey">
+        11:00 am: Asia-Pacific Graduation Ceremony <br>
+        1:00 pm: Reception to Follow <br>
+        2:00 pm: Some more Packing!
+      </p>
+      
+      <h5>Thursday, 17 May</h5>
+      <p class="w3-text-grey">
+        1:30 pm: Barbeque Lunch at Salt & Smoke <br>
+        3:00 pm: Ice cream at Clemintines Creamery <br>
+        4:00 pm: Tour Campus <br>
+        5:00 pm: Visit the Zoo and go Paddle boating<br>
+        7:30 pm: Italian Dinner at Katie's Osteria <br>
+        
+      </p><br>
+    
+      <h5>Friday, 18 May</h5>
+      <p class="w3-text-grey">
+        8:00 am: Graduation Ceremony 1 (Entire School) <br>
+        11:00 am: Brunch at Rooster <br> 
+        3:30 pm: Graduation Ceremony 2 (Business School) <br>
+        7:30 pm: Graduation Party at Winslow's Home <br>
+        
+      </p><br>
+    
+      <h5>Saturday, 19 May</h5>
+      <p class="w3-text-grey">
+        Sayonara St. Louis! 
+      </p><br>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Thursday, 17 May</h5>
+      <p class="w3-text-grey">
+        1:30 pm: Barbeque Lunch at Salt & Smoke <br>
+        3:00 pm: Ice cream at Clemintines Creamery <br>
+        4:00 pm: Tour Campus <br>
+        5:00 pm: Visit the Zoo and go Paddle boating<br>
+        7:30 pm: Italian Dinner at Katie's Osteria <br>
+        
+      </p><br>
+    
+      <h5>Friday, 18 May</h5>
+      <p class="w3-text-grey">
+        8:00 am: Graduation Ceremony 1 (Entire School) <br>
+        11:00 am: Brunch at Rooster <br> 
+        3:30 pm: Graduation Ceremony 2 (Business School) <br>
+        7:30 pm: Graduation Party at Winslow's Home <br>
+        
+      </p><br>
+    
+      <h5>Saturday, 19 May</h5>
+      <p class="w3-text-grey">
+        Sayonara St. Louis! 
+      </p><br>
+    
+      
+    </div>
+    
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">THE PAST 4 YEARS</span></h5>
+    <p> What started off as a plan to get out of the Bombay bubble turned into the best life experience. 15 year old me discovered the joy of learning, and wanted to chase after this new found passion.
+    As I read more, I understood more, and the world began to open up to me. This excitement from learning (not synonymous with studying), was one I hadn't felt before, and I was determined to continue down this path.
+    After much research, and self introspection to choose 'this path', I decided studying abroad in the United States was the ideal choice. The combination of a research based insitution, flexibility to
+    try out a variety of different subjects, and tempurpedic beds was why I chose WashU. And I never looked back.
+  </p>
+    <br>
+    
+    <div class="w3-panel w3-leftbar w3-light-grey">
+   
+      <p><i>"Great people do things before they're ready. They do things before they know they can do it. Doing what you're afraid of, getting out of your comfort zone, taking risks like that--that is what life is. You might find out something about yourself that's really special. If you're not good, who cares? You tried something. Now you know something about yourself." - Amy Poehler</i></p>
+      
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Website Designed and Created by Kimaya Hemdev</p>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
